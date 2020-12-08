@@ -18,7 +18,7 @@
     "test:coverage": "jest --coverage",
     "lint": "eslint \"{src/libs,__tests__}/**/*.{ts,test.ts,spec.ts}\"",
     "lint:fix": "eslint \"{src/libs,__tests__}/**/*.{ts,test.ts,spec.ts}\" --fix",
-    "formatter": "prettier \"{src/libs,__tests__}/**/*.{ts,test.ts,spec.ts}\" --check --write"
+    "format": "prettier \"{src/libs,__tests__}/**/*.{ts,test.ts,spec.ts}\" --check --write"
   },
   "author": "restuwahyu13",
   "repository": {
@@ -55,16 +55,16 @@
     "ts-jest": "^26.4.4",
     "typescript": "^4.1.2"
   },
-  "lint-staged": {
-    "*.ts": [
-      "npm run formatter",
-      "npm run lint:fix",
-      "git add"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "npm run lint:fix",
+      "npm run format",
+      "git add"
+    ]
   }
 }
