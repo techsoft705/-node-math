@@ -1,0 +1,18 @@
+{
+  "name": "app-dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:cjs": "node index.js",
+    "start:esm": "node index.mjs",
+    "start:ts": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.21.0",
+    "ts-node": "^9.1.1"
+  }
+}
