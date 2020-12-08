@@ -1,0 +1,22 @@
+language: 'nodejs'
+
+node_js:
+  - node_js
+
+script:
+  - npm install
+  - npm run test:coverage
+
+after_script:
+  - npm run test:coveralls
+
+cache:
+  npm: true
+  packages: true
+
+os:
+  - windows
+  - linux
+
+jobs:
+  fast_finish: true
