@@ -22,11 +22,11 @@
   },
   "author": "restuwahyu13",
   "repository": {
-    "url": "https://github.com/techsoft705/node-math-ts"
+    "url": "https://github.com/techsoft705/node-math"
   },
-  "homepage": "https://github.com/techsoft705/node-math-ts#readme",
+  "homepage": "https://github.com/techsoft705/node-math#readme",
   "bugs": {
-    "url": "https://github.com/techsoft705/node-math-ts/issues"
+    "url": "https://github.com/techsoft705/node-math/issues"
   },
   "license": "MIT",
   "engines": {
