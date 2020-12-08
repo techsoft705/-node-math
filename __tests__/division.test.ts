@@ -1,4 +1,4 @@
-import division from '../src/libs/division'
+import { division } from '../src/libs/division'
 
 describe('Math Division', () => {
   it('test functionality is exitst', () => {

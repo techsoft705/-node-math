@@ -1,4 +1,4 @@
-import modulus from '../src/libs/modulus'
+import { modulus } from '../src/libs/modulus'
 
 describe('Math Modulus', () => {
   it('test functionality is exitst', () => {

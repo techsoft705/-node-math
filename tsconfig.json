@@ -17,7 +17,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitAny": true,
-    "typeRoots": ["./index.d.ts", "node_modules/@types"]
+    "typeRoots": ["node_modules/@types"]
   },
   "include": ["src/**/*"]
 }

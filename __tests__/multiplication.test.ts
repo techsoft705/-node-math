@@ -1,4 +1,4 @@
-import multiplication from '../src/libs/multiplication'
+import { multiplication } from '../src/libs/multiplication'
 
 describe('Math Multiplication', () => {
   it('test functionality is exitst', () => {

@@ -1,4 +1,4 @@
-import exponentiation from '../src/libs/exponentiation'
+import { exponentiation } from '../src/libs/exponentiation'
 
 describe('Math Exponentiation', () => {
   it('test functionality is exitst', () => {

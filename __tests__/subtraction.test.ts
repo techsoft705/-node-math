@@ -1,4 +1,4 @@
-import subtraction from '../src/libs/subtraction'
+import { subtraction } from '../src/libs/subtraction'
 
 describe('Math Subtraction', () => {
   it('test functionality is exitst', () => {

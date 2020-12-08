@@ -1,4 +1,4 @@
-import addition from '../src/libs/addition'
+import { addition } from '../src/libs/addition'
 
 describe('Math Addition', () => {
   it('test functionality is exitst', () => {
