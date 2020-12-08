@@ -1,7 +1,7 @@
 {
-  "name": "@node/math-operation",
+  "name": "node-math",
   "version": "1.0.0",
-  "description": "@node/math-operation is basic operation for calculation number",
+  "description": "node-math is basic operation for calculation number",
   "main": "./dist/index.js",
   "module": "./esm/index.js",
   "types": "./index.d.ts",
@@ -61,7 +61,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
+    "*.ts": [
       "npm run lint:fix",
       "npm run format",
       "git add"
