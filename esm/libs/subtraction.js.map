@@ -1,1 +1,0 @@
-{"version":3,"file":"subtraction.js","sourceRoot":"","sources":["../../src/libs/subtraction.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,GAAG,CAAC,CAAS,EAAE,CAAS,EAAgB,EAAE;IACzD,IAAI,OAAO,CAAC,KAAK,QAAQ,IAAI,OAAO,CAAC,KAAK,QAAQ,EAAE;QAClD,OAAO,CAAC,GAAG,CAAC,CAAA;KACb;IACD,OAAO,IAAI,SAAS,CAAC,0BAA0B,CAAC,CAAA;AAClD,CAAC,CAAA;AAED,eAAe,WAAW,CAAA"}
