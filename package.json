@@ -1,6 +1,6 @@
 {
   "name": "@node/math-operation",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "@node/math-operation is basic operation for calculation number",
   "main": "./dist/index.js",
   "module": "./esm/index.js",
